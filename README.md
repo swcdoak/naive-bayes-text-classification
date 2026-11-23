@@ -136,22 +136,27 @@ Overall, the experiments demonstrated that relatively simple modifications to fe
 ## Project Structure
 
 ```text
-naive-bayes-text-classification/
-│
-├── README.md
+├── data
+│   ├── predictions.csv
+│   ├── trg.csv
+│   └── tst.csv
 ├── notebooks
-│   ├──experiments.ipynb
-│
-│
-├── src/
-│   ├── __init__.py
-│   ├── data.py
-│   ├── instances.py
-│   ├── preprocessing.py
-│   ├── classifiers.py
-│   └── evaluation.py
-│
-└── data/
+│   └── experiments.ipynb
+├── README.md
+└── src
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-311.pyc
+    │   ├── classifiers.cpython-311.pyc
+    │   ├── data.cpython-311.pyc
+    │   ├── evaluation.cpython-311.pyc
+    │   ├── instances.cpython-311.pyc
+    │   └── preprocessing.cpython-311.pyc
+    ├── classifiers.py
+    ├── data.py
+    ├── evaluation.py
+    ├── instances.py
+    └── preprocessing.py
 ```
 
 The implementation is separated into modules according to responsibility:
