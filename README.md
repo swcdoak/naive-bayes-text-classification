@@ -139,7 +139,9 @@ Overall, the experiments demonstrated that relatively simple modifications to fe
 naive-bayes-text-classification/
 │
 ├── README.md
-├── experiments.ipynb
+├── notebooks
+│   ├──experiments.ipynb
+│
 │
 ├── src/
 │   ├── __init__.py
